@@ -1,0 +1,68 @@
+header{
+			display:flex;
+			height: 15vh;
+			justify-content: space-between;
+			align-items: center;
+		}
+		.academics, .fiction, .non-fiction, .self-help{
+			height:40vh;
+		}
+		.flex-container{
+			display: flex;
+			justify-content: space-around;
+		}
+		.hero-unit-img{			
+			position: absolute;
+		}
+		.hero-unit-img > img{
+			width: 590px;
+			height: 260px;
+		}
+		.hero-unit-caption{
+			color:whitesmoke;
+			position: absolute;
+			text-decoration: none;
+		}
+		.hero-unit{
+			overflow: hidden;
+			height:30vh;
+			width: 45vw;
+			position: relative;
+		}
+		.hero-unit-caption-container{
+			display: flex;
+			height:100%;
+			justify-content: center;
+			align-items:center;
+		}
+		.hero-unit-mask{
+			background-color: black;
+			height: 100%;
+			width: 100%;
+			position: absolute;
+			opacity:0.5;
+		}
+		.logo-image > img{
+			height: 50px;
+			width: 50px;
+		}
+		.logo-image{
+			display:flex;
+		}
+		.insights-image-container > img {
+			width:269.33px;
+			height:255px;
+			overflow:hidden;
+		}
+		.insights-flex-conatiner{
+			display: flex;
+			justify-content: space-around;
+		}
+		footer{
+			background-color: #CACFD6;
+			text-align:center;
+		}
+		.jumbotron{
+			padding-top: 30px;
+			padding-bottom: 30px;
+		}
